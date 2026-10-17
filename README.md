@@ -16,7 +16,7 @@ the last 7 days of filing events), which the code downloads from varvedata.com o
 ## Run them
 
 ```bash
-git clone https://github.com/OWNER/varve-examples.git
+git clone https://github.com/varve-data/varve-examples.git
 cd varve-examples
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
