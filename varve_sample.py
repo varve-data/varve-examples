@@ -23,6 +23,9 @@ FILES = {
     "fundamentals_quarterly": "varve_fundamentals_quarterly_sample.csv",
     "fundamentals_annual": "varve_fundamentals_annual_sample.csv",
     "fundamentals_companies": "varve_fundamentals_companies_sample.csv",
+    "ticker_history": "varve_fundamentals_ticker_history_sample.csv",
+    "company_names": "varve_fundamentals_company_names_sample.csv",
+    "company_lineage": "varve_fundamentals_company_lineage_sample.csv",
     "earnings_releases": "varve_events_earnings_releases_last7days.csv",
     "current_reports": "varve_events_current_reports_last7days.csv",
     "ownership_filings": "varve_events_ownership_filings_last7days.csv",
@@ -34,7 +37,8 @@ FILES = {
 }
 
 DATES = {"period_end", "filed", "first_filed", "last_filed", "trans_date", "report_date",
-         "announced", "record_date", "payable_date", "effective_date", "ex_date"}
+         "announced", "record_date", "payable_date", "effective_date", "ex_date",
+         "valid_from", "valid_to", "last_seen", "link_date"}
 
 
 def download(force=False):
