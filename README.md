@@ -12,6 +12,7 @@ the last 7 days of filing events), which the code downloads from varvedata.com o
 | [02 · Point-in-time](notebooks/02_point_in_time.ipynb) | Why lining data up by `period_end` leaks the future (55% of company-months in the sample), and the `merge_asof`-on-`filed` pattern that fixes it |
 | [03 · Identifiers and delistings](notebooks/03_identifiers_and_delistings.ipynb) | Tickers that point to two companies (BBBY, GOOGL, DIS), renamed tickers, and companies that no longer exist (SVB, Bed Bath & Beyond, Twitter) |
 | [04 · Events](notebooks/04_events.ipynb) | Earnings release times to the second, insider buying, 13D activist stakes, late filings, 8-K items |
+| [05 · varve_id](notebooks/05_varve_id.ipynb) | One company across CIK changes: Google → Alphabet, Disney, Exxon. The CIK switches, `varve_id` doesn't; how much history a CIK-keyed backtest can't see; `lineage_primary` for one point-in-time row per quarter |
 
 ## Run them
 
